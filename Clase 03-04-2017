@@ -1,0 +1,28 @@
+# POO
+Referencia de la materia de programación orientada a objetos en java
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+   Scanner cap = new Scanner (System.in);
+   int n,n2;
+   n=cap.nextInt();
+   n2=cap.nextInt();
+   System.out.println(suma(n,n2));
+}
+
+/*
+¿Que es un metodo?
+Un método en Java es un conjunto de instrucciones definidas dentro de una clase, que realizan
+una determinada tarea y a las que podemos invocar mediante un nombre.
+*/
+
+/*
+Ejemplo de un metodo
+Este metodo es del tipo entero y retorna el resultado de una suma
+*/
+public static int suma(int a,int b){
+    return a+b;
+}
+}
